@@ -63,7 +63,11 @@ class Woman extends Human{
 }
   
 const introduce = creature => {
+<<<<<<< HEAD
   print(`<b>General information</b>(Specie: <b>${creature.specie}</b>, Gender: <b>${creature.gender}</b>). Hello my name is: <b>${creature.name}</b>, I have: <b>${creature.legs}</b> legs and <b>${creature.hands ? creature.hands : "I have 0"}</b> hands. About myself: <b>${creature.introduce}</b>`, 'p');
+=======
+  print(`<b>General information:</b>(Specie: <b>${creature.specie}</b>, Gender: <b>${creature.gender}</b>). Hello my name is: <b>${creature.name}</b>, I have: <b>${creature.legs}</b> legs and <b>${creature.hands ? creature.hands : "I have 0"}</b> hands. About myself: <b>${creature.introduce}</b>`, 'p');
+>>>>>>> 41b42dd1f5420579d91da791595dcca523cd9149
 };
 
 const creaturesArray = [
@@ -91,4 +95,8 @@ creaturesArray.map(creature => {
   print('human; John; male; 2; 2; Hello world!; Rex, Tom, Jenny');
  print('human; <strong>John</strong>; male; 2; 2; <em>Hello world!</em>; Rex, Tom, Jenny');
  print('human; <strong>John</strong>; male; 2; 2; <em>Hello world!</em>; Rex, Tom, Jenny', 'div');
+<<<<<<< HEAD
  */
+=======
+ */
+>>>>>>> 41b42dd1f5420579d91da791595dcca523cd9149
